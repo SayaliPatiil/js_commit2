@@ -6,6 +6,11 @@ module.exports = {
     `plugin:flowtype/recommended`,
     `plugin:react/recommended`,
     `prettier`,
+    
+    
+    
+    
+    
   ],
   plugins: [`flowtype`, `prettier`, `react`, `filenames`, `@babel`],
   parserOptions: {
