@@ -93,6 +93,10 @@ module.exports = function (plop) {
         path: `examples/{{kebabCase name}}/.gitignore`,
         templateFile: `plop-templates/example/.gitignore.hbs`,
       },
+      function isTruthy(x) {
+    debugger;
+    return Boolean(x);
+}
       {
         type: `add`,
         path: `examples/{{kebabCase name}}/.eslintrc.json`,
